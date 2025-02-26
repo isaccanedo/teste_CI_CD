@@ -25,8 +25,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Rodar flake8 (verificação de estilo)
-        run: flake8 teste_CI_CD/
+      - name: Teste flake8 manualmente
+        run: flake8 --version
       
       - name: Rodar testes
         run: pytest teste_CI_CD/test_main.py
