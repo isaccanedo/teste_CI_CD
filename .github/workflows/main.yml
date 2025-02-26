@@ -26,10 +26,10 @@ jobs:
           pip install -r requirements.txt
       
       - name: Rodar flake8 (verificação de estilo)
-        run: flake8 meu_projeto/
+        run: flake8 teste_CI_CD/
       
       - name: Rodar testes
-        run: pytest meu_projeto/test_main.py
+        run: pytest teste_CI_CD/test_main.py
 
       - name: Simulação de Deploy
         run: echo "Deploy realizado com sucesso!"
