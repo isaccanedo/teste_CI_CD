@@ -1,13 +1,13 @@
 # Estrutura do projeto:
-### /meu_projeto
-### ├── .github/workflows/ci_cd.yml  (Workflow do GitHub Actions)
-### ├── meu_projeto/
-### │   ├── __init__.py
-### │   ├── main.py  (Código principal)
-### │   └── test_main.py  (Testes automatizados)
-### ├── requirements.txt  (Dependências)
-### ├── .flake8  (Configuração do flake8)
-### └── README.md  (Descrição do projeto)
+#### /meu_projeto
+#### ├── .github/workflows/ci_cd.yml  (Workflow do GitHub Actions)
+#### ├── meu_projeto/
+#### │   ├── __init__.py
+#### │   ├── main.py  (Código principal)
+#### │   └── test_main.py  (Testes automatizados)
+#### ├── requirements.txt  (Dependências)
+#### ├── .flake8  (Configuração do flake8)
+#### └── README.md  (Descrição do projeto)
 
 # 1. Criando o código principal
 # Arquivo: meu_projeto/main.py
