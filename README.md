@@ -1,4 +1,4 @@
-# Estrutura do projeto:
+## Estrutura do projeto:
 #### /meu_projeto
 #### ├── .github/workflows/ci_cd.yml  (Workflow do GitHub Actions)
 #### ├── meu_projeto/
